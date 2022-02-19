@@ -1,0 +1,84 @@
+import { useMediaQuery } from '@material-ui/core'
+import React, { useEffect } from 'react'
+import { Link } from 'react-router-dom'
+import "../assets/css/footer.css"
+import footerLogo from "../assets/image/footerLogo.svg"
+import ico1 from "../assets/image/ico1.svg"
+import ico2 from "../assets/image/ico2.svg"
+import ico3 from "../assets/image/ico3.svg"
+import jedai_logo from '../assets/image/Jedai-logo-blue.png'
+import { useLocation } from 'react-router-dom';
+function Footer() {
+    const footerImgMQ = useMediaQuery('(max-width:900px)');
+        
+    const location = useLocation();
+
+    const colorCH = {
+        fontWeight: "700"
+    }
+    const colorCHD = {
+        color:"white"
+    }
+    
+    useEffect(() => {
+        myFunc()
+    }, [])
+    
+    const myFunc = function(d,s){
+        if(document.getElementById("licnt02FD") !== undefined && document.getElementById("licnt02FD") !== null)
+        {
+            document.getElementById("licnt02FD").src= "https://counter.yadro.ru/hit?t27.6;r"+escape(document.referrer)+ ((typeof(s)=="undefined")?"":";s"+s.width+""+s.height+""+ (s.colorDepth?s.colorDepth:s.pixelDepth))+";u"+escape(document.URL)+";h"+escape(document.title.substring(0,150))+";"+Math.random()
+        }
+    }
+    const yearcurrent = new Date()
+    return (
+        <div className="footerCont">
+            <footer>
+                
+                {footerImgMQ && <img className='footerImg' src={footerLogo} alt="" />}
+
+                {footerImgMQ && <hr /> }
+
+                <ul>
+                    <li><Link to="/"> <p  style={location.pathname === "/" ? colorCH : colorCHD}>{sessionStorage.getItem('lang') === "AZ" && `Ana Səhifə` || sessionStorage.getItem('lang') === "EN" && `Homepage` || sessionStorage.getItem('lang') === "RU" && `Домашняя страница`}</p>    </Link></li>
+                    <li><Link to="/vacancies"> <p style={location.pathname === "/vacancies" ? colorCH : colorCHD} >  {sessionStorage.getItem('lang') === "AZ" && `Vakansiyalar` || sessionStorage.getItem('lang') === "EN" && `Vacancies` || sessionStorage.getItem('lang') === "RU" && `Вакансии`}</p>  </Link></li>
+                    <li><Link to="/cv"> <p style={location.pathname === "/cv" ? colorCH : colorCHD} >  {sessionStorage.getItem('lang') === "AZ" && `CV-lər` || sessionStorage.getItem('lang') === "EN" && `CV` || sessionStorage.getItem('lang') === "RU" && `CV`}</p>  </Link></li>
+                    <li><Link to="/about"> <p  style={location.pathname === "/about" ? colorCH : colorCHD}>{sessionStorage.getItem('lang') === "AZ" && `Haqqımızda` || sessionStorage.getItem('lang') === "EN" && `About Us` || sessionStorage.getItem('lang') === "RU" && `О нас`}</p>    </Link></li>
+                </ul>
+                {footerImgMQ && <hr /> }
+                <ul>
+                    <li > <Link to="/refund"> <p  style={location.pathname === "/refund" ? colorCH : colorCHD}> {sessionStorage.getItem('lang') === "AZ" && `Geri Qaytarma` || sessionStorage.getItem('lang') === "EN" && `Refund` || sessionStorage.getItem('lang') === "RU" && `Возврат`}</p>   </Link></li>
+                    <li><Link to="/contact"> <p  style={location.pathname === "/contact" ? colorCH : colorCHD}> {sessionStorage.getItem('lang') === "AZ" && `Əlaqə` || sessionStorage.getItem('lang') === "EN" && `Contact` || sessionStorage.getItem('lang') === "RU" && `Контакты`}</p>   </Link></li>
+                    <li><Link to="/blog"> <p  style={location.pathname === "/blog" ? colorCH : colorCHD}>  {sessionStorage.getItem('lang') === "AZ" && `Faydalı məlumatlar` || sessionStorage.getItem('lang') === "EN" && `Blog` || sessionStorage.getItem('lang') === "RU" && `Блог`}</p>  </Link></li>
+                    <li><Link to="/privacy-policy"> <p   style={location.pathname === "/privacy-policy" ? colorCH : colorCHD}> {sessionStorage.getItem('lang') === "AZ" && `Məxfilik siyasəti` || sessionStorage.getItem('lang') === "EN" && `Privacy policy` || sessionStorage.getItem('lang') === "RU" && `Политика конфиденциальности`}</p>   </Link></li>
+                    <li><Link to="/contract"> <p   style={location.pathname === "/contract" ? colorCH : colorCHD}> {sessionStorage.getItem('lang') === "AZ" && `Müqavilə` || sessionStorage.getItem('lang') === "EN" && `Contract` || sessionStorage.getItem('lang') === "RU" && `Kонтракт`}</p>   </Link></li>
+                </ul>
+
+                {footerImgMQ && <hr /> }
+                {!footerImgMQ && <Link to='/'> <img src={footerLogo} alt="" /> </Link>}
+                
+                <div className="socialCont">
+                    <div className="iconsCont">
+                        <a href="https://t.me/ContactJobdayaz "><svg width="36" height="31" viewBox="0 0 36 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M32.5706 15.218C31.9848 15.0627 31.3907 15.4399 31.2705 16.0439L28.8573 28.0537C28.8095 28.2941 28.6556 28.8523 28.2611 28.8523C28.0663 28.8523 27.8209 28.7443 27.5706 28.5475L21.1448 23.2811C21.1441 23.2804 21.1427 23.2797 21.142 23.279L17.3184 20.1452L28.2998 8.26919C28.6513 7.88918 28.683 7.30666 28.375 6.88872C28.067 6.47079 27.5088 6.33983 27.0517 6.57742L8.99055 15.9694L2.58368 14.1038L33.0473 2.26785C33.3046 2.16767 33.4839 2.14691 33.5894 2.14691C33.6541 2.14691 33.7687 2.15478 33.8116 2.20846C33.8678 2.27787 33.9388 2.51546 33.8502 2.96059L32.7738 8.37152C32.6627 8.92972 32.9995 9.47933 33.5416 9.62317C34.1273 9.77847 34.7214 9.40133 34.8416 8.79733L35.9181 3.3864C36.1185 2.37949 35.9505 1.47779 35.4449 0.848746C35.0048 0.301283 34.3459 0 33.5901 0C33.1788 0 32.7435 0.0880234 32.2956 0.261923L1.82219 12.1021C0.205004 12.7305 -0.0129643 13.673 0.00109824 14.1789C0.0151607 14.6849 0.285161 15.6138 1.93469 16.1476C1.94454 16.1505 1.95438 16.1541 1.96422 16.1569L8.28532 17.9983L11.7039 27.9471C12.1701 29.3032 13.2163 30.1462 14.4348 30.1462C15.2034 30.1462 15.9585 29.8185 16.6202 29.1994L20.5302 25.5354L26.2009 30.1827C26.2016 30.1834 26.2023 30.1834 26.2031 30.1841L26.2572 30.2285C26.2621 30.2321 26.267 30.2364 26.272 30.2407C26.902 30.7381 27.5903 31.0014 28.2625 31.0014C29.5759 31.0014 30.6215 30.0124 30.9259 28.4816L33.3391 16.4718C33.4495 15.9115 33.112 15.3619 32.5706 15.218ZM14.7456 19.997L13.2817 26.0335L10.3996 17.6476L22.5946 11.3071L15.0009 19.519C14.8771 19.6535 14.7892 19.8181 14.7456 19.997ZM15.1907 27.6186C15.1401 27.6658 15.0895 27.708 15.0388 27.7467L16.3973 22.1468L18.8681 24.1721L15.1907 27.6186Z" fill="white"/>
+</svg></a>
+                        <a href="https://wa.me/994502263730"><img src={ico1} alt=""/></a>
+                        <a href="https://instagram.com/jobday.az?utm_medium=copy_link"><img src={ico2} alt=""/></a>
+                        <a href="https://www.facebook.com/jobday.azerbaijan"><img src={ico3} alt=""/></a>
+                    </div>
+                    <p><a href="tel:+994 51 226 37 30">+994 51 226 37 30</a> </p>
+                    <p><a href="tel:+994 51 615 62 48">+994 50 615 62 48</a> </p>
+                    <p><a href="mailto:info@jobday.az">info@jobday.az</a></p>
+                    <a  href="https://www.liveinternet.ru/click" target="_blank"><img id="licnt02FD" width="88" height="120"   title="LiveInternet: number of visitors and pageviews is shown" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAEALAAAAAABAAEAAAIBTAA7" alt=""/></a>
+                </div>
+            </footer>
+
+            <div className="createdbyJedai">
+                <div className="parts">© JobDay.az {yearcurrent.getFullYear()} {sessionStorage.getItem('lang') === "AZ" && ` Müəllif hüquqları qorunur` || sessionStorage.getItem('lang') === "EN" && `All rights reserved` || sessionStorage.getItem('lang') === "RU" && `Все права защищены`} </div>
+                <a href='https://jedai.az/az/saytlarin-hazirlanmasi' target='_blank' className="parts">Site by <img width='90px' height='auto' src={jedai_logo} alt="" /></a>
+            </div>
+        </div>
+    )
+}
+
+export default Footer

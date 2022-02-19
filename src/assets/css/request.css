@@ -1,0 +1,102 @@
+.request {
+  width: 892px;
+  height: 68px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 96px (1fr)[5];
+      grid-template-columns: 96px repeat(5, 1fr);
+  background-color: white;
+  -webkit-box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  padding-left: 17px;
+  color: #00252E;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.request .btns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 10px;
+          column-gap: 10px;
+  margin-right: 10px;
+}
+
+.request .btns a {
+  border: none;
+  color: white;
+  background-color: #3D92A7;
+  border-radius: 5px;
+  width: 35px;
+  height: 35px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: 0.5s background-color;
+  transition: 0.5s background-color;
+}
+
+.request .btns a svg {
+  width: 30px;
+}
+
+.request .btns a:hover {
+  background-color: #00252E;
+}
+
+.request .btns button {
+  border: none;
+  color: white;
+  background-color: #3D92A7;
+  border-radius: 5px;
+  width: 35px;
+  height: 35px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: 0.5s background-color;
+  transition: 0.5s background-color;
+}
+
+.request .btns button svg {
+  width: 30px;
+}
+
+.request .btns button:hover {
+  background-color: #00252E;
+}
+
+.request .imgAndName {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.request .imgAndName .img {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  border: 1px solid #00252E;
+  margin-right: 5px;
+}
+/*# sourceMappingURL=request.css.map */

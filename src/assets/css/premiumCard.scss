@@ -1,0 +1,161 @@
+.premiumCardLink
+{
+    width: auto !important;
+}
+.premiumCard
+{
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+    padding: 15px;
+    width: 320px;
+    height: 100px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.25) ;
+    cursor: pointer;
+    .outline
+    {
+        border: 2px solid #00252E;
+        border-radius: 50%;    
+        
+        @media screen and (min-width:1900px){
+            width: 60px !important;
+            height: 60px !important;
+            .imgCont {
+                width: 60px !important;
+                height: 60px !important; 
+                border-radius: 50%;
+            }
+        }
+    
+        @media screen and (min-width:1400px) and (max-width:1900px){
+            width: 50px !important;
+            height: 50px !important;
+            .imgCont {
+                width: 50px !important;
+                height: 50px !important;
+                border-radius: 50%;
+            }
+        }
+    
+        @media screen and (min-width:1300px) and (max-width:1400px){
+            width: 45px !important;
+            height: 45px !important;
+            .imgCont {
+                width: 45px !important;
+                height: 45px !important;
+                border-radius: 50%;
+            }
+        }
+    
+        @media screen and (max-width:1300px) {
+            width: 35px !important;
+            height: 35px !important;
+            .imgCont {
+                width: 35px !important;
+                height: 35px !important;
+                border-radius: 50%;
+            }
+        }
+        align-self: flex-start;
+        margin-top: 18px;
+        .imgCont
+        {
+            width: 51px;
+            height: 51px;
+            border-radius: 50%;    
+        }
+    }
+    .aboutCont
+    {
+        display: flex;
+        flex-direction: column;
+        width: 252px;
+        height: 64px;
+        p 
+        {
+            margin: 0px;
+        }
+        .top
+        {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            .part1 , .part2
+            {
+                margin: 0px;
+                font-size: 13px;
+                font-weight: 700;
+                color: #00252E;
+                font-family: "MsM";
+            }
+            .price
+            {
+                width: 80px;
+                margin-right: 5px;
+                display: flex ;
+                justify-content: flex-end;
+            }
+        }
+        .timeCont
+        {
+            display: flex;
+            justify-content: space-between;
+            font-size: 11px;
+            .time 
+            {
+                color: #3D92A7;
+                font-weight: 700;
+            }
+            .date 
+            {
+                font-weight: 400;
+                color: #00252E;
+                font-family: "MsM";
+            }
+        }
+        .companyName
+        {
+            font-size: 14px;
+            font-weight: 700;
+            font-family: "MsR";
+            margin-top: 5px;
+            margin-bottom: 5px;
+            color: #00252E;
+        }
+    }
+    transition: 0.5s;   
+
+    &:hover
+    {
+        background: #3D92A7;
+        color: white; 
+        
+        .outline
+        {
+            background-color: #fff;
+            transition: 0.5s;   
+        }
+        .part1 , .part2
+        {
+            color: white !important;
+            transition: 0.5s;   
+        }
+        .companyName
+        { 
+            color: white;
+            transition: 0.5s;   
+        }
+        .date 
+        {
+            font-weight: 400;
+            color: white !important;
+            transition: 0.5s;   
+        }
+        .time 
+        {
+            color: white !important;
+            transition: 0.5s;   
+        }
+    }
+}

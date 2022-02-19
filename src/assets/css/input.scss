@@ -1,0 +1,14 @@
+.input 
+{
+    width: 460px;
+    height: 54px;
+    padding-left: 28px;
+    font-size: 18px;
+    border-radius: 10px;
+    font-family: "MsR" ;
+    border: 1px solid lightgray;
+}
+.input::placeholder 
+{
+    color: rgba(0,0,0,0.5);
+}

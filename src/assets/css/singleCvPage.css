@@ -1,0 +1,251 @@
+.signleVacancyPage {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 100px;
+  margin-top: 31px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.signleVacancyPage a {
+  color: #000000;
+}
+
+.signleVacancyPage .vacancyCont {
+  width: 1249px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.signleVacancyPage .emailaddress {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.signleVacancyPage .pageLink {
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 10px;
+          column-gap: 10px;
+  color: black;
+  font-family: MsR;
+  font-size: 11px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.signleVacancyPage .pageLink a {
+  color: black;
+}
+
+.signleVacancyPage .pageLink svg {
+  width: 10px;
+}
+
+.signleVacancyPage .flexCont {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 26px;
+          column-gap: 26px;
+  margin-top: 55px;
+}
+
+.signleVacancyPage .flexCont .mainSide {
+  width: 680px;
+  min-height: 900px;
+  -webkit-box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-top: 36px;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+.signleVacancyPage .flexCont .mainSide .topSide {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 70px 471px 60px;
+      grid-template-columns: 70px 471px 60px;
+  grid-gap: 36px;
+}
+
+.signleVacancyPage .flexCont .mainSide .topSide .logo {
+  width: 70px;
+  height: 70px;
+  border: 1px solid #00252E;
+  border-radius: 50%;
+}
+
+.signleVacancyPage .flexCont .mainSide .topSide .about {
+  width: 471px;
+  color: #00252E;
+  font-family: "MsR";
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.signleVacancyPage .flexCont .mainSide .topSide .about .title {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.signleVacancyPage .flexCont .mainSide .topSide .about .subTitle {
+  font-size: 18px;
+  margin-top: 20px;
+  font-weight: 450;
+}
+
+.signleVacancyPage .flexCont .mainSide .topSide .about .dateAgeGender {
+  margin-top: 16px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 31px;
+          column-gap: 31px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.signleVacancyPage .flexCont .mainSide .topSide .about .priceCont {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+.signleVacancyPage .flexCont .mainSide .topSide .about .priceCont .price {
+  margin-top: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 16px;
+  height: 37px;
+  padding-left: 10px;
+  padding-right: 10px;
+  max-width: 180px;
+  background: #3D92A7;
+  color: white;
+  border-radius: 10px;
+}
+
+.signleVacancyPage .flexCont .mainSide .topSide .about p {
+  margin: 0px;
+}
+
+.signleVacancyPage .flexCont .mainSide .topSide .premiumOrNot {
+  width: 60px;
+}
+
+.signleVacancyPage .flexCont .mainSide .middleSide {
+  margin-top: 38px;
+  font-family: "MsR";
+  padding-bottom: 40px;
+}
+
+.signleVacancyPage .flexCont .mainSide .middleSide p {
+  margin: 0px;
+}
+
+.signleVacancyPage .flexCont .mainSide .middleSide .title {
+  font-weight: 600;
+  font-size: 24px;
+  color: #00252E;
+}
+
+.signleVacancyPage .flexCont .mainSide .middleSide .title2 {
+  margin-top: 47px;
+}
+
+.signleVacancyPage .flexCont .mainSide .middleSide .body {
+  margin-top: 24px;
+  line-height: 22px;
+  width: 604px;
+}
+
+.signleVacancyPage .flexCont .mainSide .button {
+  width: 286px;
+  height: 49px;
+  font-size: 18px;
+  background: #3D92A7;
+  border-radius: 10px;
+  margin-top: 114px;
+  margin-bottom: 36px;
+}
+
+.signleVacancyPage .flexCont .subSide {
+  min-width: 320px;
+  padding-right: 40px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  padding-left: 40px;
+  height: 760px;
+  -webkit-box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  font-family: "MsR";
+}
+
+.signleVacancyPage .flexCont .subSide .category {
+  margin-top: 25px;
+}
+
+.signleVacancyPage .flexCont .subSide .category p {
+  margin: 0px;
+}
+
+.signleVacancyPage .flexCont .subSide .category .title {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.signleVacancyPage .flexCont .subSide .category .subTitle {
+  font-size: 16px;
+  margin-top: 13px;
+  margin-left: 8.5px;
+  font-weight: 500;
+}
+/*# sourceMappingURL=singleCvPage.css.map */

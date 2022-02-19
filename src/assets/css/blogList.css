@@ -1,0 +1,111 @@
+.blogListing {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 100px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.blogListing .vacancyCont {
+  width: 95%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 10px;
+}
+
+.blogListing .pageLink {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 10px;
+          column-gap: 10px;
+  color: black;
+  font-family: MsR;
+  font-size: 11px;
+  margin-top: 10px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 13px;
+}
+
+.blogListing .pageLink svg {
+  width: 10px;
+}
+
+.blogListing .titlePage {
+  font-size: 36px;
+  font-family: "MsR";
+  color: #00252E;
+  margin-bottom: 0px;
+}
+
+.blogListing .dateSelection {
+  width: 190px;
+  height: 36px;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  background: #FFFFFF;
+  border: 1px solid #3D92A7;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 5px;
+}
+
+.blogListing .searchCont {
+  width: 100%;
+  background-image: url("../image/Search blog list.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.blogListing .gridCont {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 95%;
+  -webkit-column-gap: 50px;
+          column-gap: 50px;
+  margin-top: 46px;
+  row-gap: 43px;
+}
+
+@media only screen and (max-width: 641px) {
+  .blogListing .titlePage {
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .blogListing .titlePage {
+    font-size: 24px;
+  }
+  .blogListing .dateSelection {
+    width: 300px;
+    -ms-flex-item-align: center !important;
+        -ms-grid-row-align: center !important;
+        align-self: center !important;
+  }
+}
+/*# sourceMappingURL=blogList.css.map */

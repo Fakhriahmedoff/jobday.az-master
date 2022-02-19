@@ -1,0 +1,71 @@
+.CvAndVacancyGridCont
+{
+    display: flex;
+    flex-direction: column;
+    .title 
+    {
+        font-size: 30px;
+        font-family: "MsR";
+        column-gap: 9px;
+        font-weight: 600;
+        img 
+        {
+            width: 18px;
+        }
+    }
+    .title2 
+    {
+        // margin-top: 112px;
+    }
+    .gridCont 
+    {
+        display: flex;
+        flex-wrap: wrap;
+        width: auto;
+        grid-gap: 30px;
+        margin-bottom: 32px;
+    }
+    .pagination
+    {
+        margin-top: 80px;
+        justify-content: center;
+        .MuiPagination-ul
+        {
+            width: 100%;
+            justify-content: center;
+            li 
+            {
+                button
+                {
+                    border: 1px solid #C4C4C4;
+                    font-size: 18px;
+                    width: 27px;
+                    height: 30px;
+                    font-family: "MsR";
+                }
+            }
+            .Mui-selected
+            {
+                background: #3D92A7;
+                color: white;
+            }
+        }
+    }
+}
+
+
+
+//Mobile 
+@media only screen and (max-width: 958px) {
+    .CvAndVacancyGridCont
+    {
+        .title2
+        {
+            margin-top: 40px !important;
+        }
+        .gridCont 
+        {
+            justify-content: center;
+        }
+    }
+}

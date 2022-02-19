@@ -1,0 +1,120 @@
+.CvListingPage {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 100px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.CvListingPage .cvCont {
+  width: 1249;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.CvListingPage .pageLink {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 10px;
+          column-gap: 10px;
+  color: black;
+  font-family: MsR;
+  font-size: 11px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.CvListingPage .pageLink svg {
+  width: 10px;
+}
+
+.CvListingPage .flexCont {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 70px;
+          column-gap: 70px;
+}
+
+.CvListingPage .titlePage {
+  font-size: 36px;
+  font-family: "MsR";
+  color: #00252E;
+  margin-left: 90px;
+  margin-bottom: 0px;
+}
+
+.CvListingPage .AsideForCVandVacancy {
+  margin-top: 30px;
+}
+
+.CvListingPage .dateSelection {
+  width: 190px;
+  height: 36px;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  background: #FFFFFF;
+  border: 1px solid #3D92A7;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 5px;
+}
+
+.CvListingPage .searchCont {
+  width: 100%;
+  background-image: url("../image/search cv list.jpg");
+  background-position: center;
+}
+
+@media only screen and (max-width: 958px) {
+  .vacancyListingPage .pageLink {
+    -ms-flex-item-align: start;
+        align-self: flex-start;
+  }
+  .vacancyListingPage .filtering {
+    margin: 0px;
+  }
+  .vacancyListingPage .title {
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    margin-top: 42px;
+    margin-bottom: 30px;
+    font-size: 24px;
+  }
+  .vacancyListingPage .vacancyCont {
+    width: 98%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .vacancyListingPage .flexCont {
+    -webkit-column-gap: 20px;
+            column-gap: 20px;
+  }
+  .vacancyListingPage .gridCont {
+    margin-top: 20px;
+  }
+}
+/*# sourceMappingURL=cvListing.css.map */

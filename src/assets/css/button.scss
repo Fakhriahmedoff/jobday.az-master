@@ -1,0 +1,23 @@
+.button {
+  width: auto;
+  height: 27px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #00252e;
+  color: white;
+  font-size: 9px;
+  border: none;
+  border-radius: 5px;
+  font-family: "MsM" ;
+  transition: 0.5s;
+  img 
+  {
+    margin-right: 5px;
+  }
+  &:hover 
+  {
+    background-color: #00252e !important;
+  }
+}

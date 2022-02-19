@@ -1,0 +1,186 @@
+.lastVacancy {
+  width: 840px;
+  height: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  -webkit-box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.lastVacancy .outline {
+  border: 1px solid #00252e;
+  border-radius: 50%;
+}
+
+@media screen and (min-width: 1900px) {
+  .lastVacancy .outline {
+    width: 60px !important;
+    height: 60px !important;
+  }
+  .lastVacancy .outline .imgCont {
+    width: 60px !important;
+    height: 60px !important;
+    border-radius: 50%;
+  }
+}
+
+@media screen and (min-width: 1400px) and (max-width: 1900px) {
+  .lastVacancy .outline {
+    width: 50px !important;
+    height: 50px !important;
+  }
+  .lastVacancy .outline .imgCont {
+    width: 50px !important;
+    height: 50px !important;
+    border-radius: 50%;
+  }
+}
+
+@media screen and (min-width: 1300px) and (max-width: 1400px) {
+  .lastVacancy .outline {
+    width: 45px !important;
+    height: 45px !important;
+  }
+  .lastVacancy .outline .imgCont {
+    width: 45px !important;
+    height: 45px !important;
+    border-radius: 50%;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .lastVacancy .outline {
+    width: 35px !important;
+    height: 35px !important;
+  }
+  .lastVacancy .outline .imgCont {
+    width: 35px !important;
+    height: 35px !important;
+    border-radius: 50%;
+  }
+}
+
+.lastVacancy p {
+  margin: 0px;
+}
+
+.lastVacancy .nameCont {
+  color: #00252e;
+  font-family: "MsR";
+  margin-left: -20px;
+}
+
+.lastVacancy .nameCont .job {
+  font-size: 18px;
+  font-weight: 700;
+  width: 200px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.lastVacancy .nameCont .company {
+  font-size: 15px;
+  font-weight: 700;
+  margin-top: 12px;
+  width: 200px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.lastVacancy .workTime {
+  font-size: 16px;
+  color: #3D92A7;
+  font-weight: 700;
+  font-family: "MsR";
+  width: 130px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+@media screen and (max-width: 1083px) and (min-width: 592px) {
+  .lastVacancy .workTime {
+    display: none;
+  }
+}
+
+.lastVacancy .price {
+  font-size: 16px;
+  color: #00252E;
+  width: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-weight: 700;
+  font-family: "MsR";
+}
+
+.lastVacancy .lastDate {
+  font-size: 16px;
+  color: #00252E;
+  font-family: "MsL";
+  width: 166px;
+}
+
+.lastVacancy:hover {
+  background: #3D92A7 !important;
+  color: white;
+}
+
+.lastVacancy:hover .outline {
+  background-color: #fff;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.lastVacancy:hover .price {
+  color: white !important;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.lastVacancy:hover .nameCont {
+  color: white;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  width: 200px;
+  overflow: hidden;
+}
+
+.lastVacancy:hover .workTime {
+  font-weight: 400;
+  color: white !important;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.lastVacancy:hover .time {
+  color: white !important;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.lastVacancy:hover .lastDate {
+  color: white;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+/*# sourceMappingURL=lastVacancy.css.map */

@@ -1,0 +1,80 @@
+.formUser {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #3D92A7;
+  width: 460px;
+}
+
+.formUser .checkCont {
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-column-gap: 10px;
+          column-gap: 10px;
+  font-size: 18px;
+  color: #00252E;
+  margin-top: 33px;
+}
+
+.formUser .checkCont input {
+  margin: 0px;
+  margin-top: 4.5px;
+}
+
+.formUser .button {
+  width: 460px;
+  height: 50px;
+  font-size: 18px;
+  margin-top: 44px;
+}
+
+.formUser input {
+  margin-top: 25px;
+}
+
+.formUser .input {
+  width: 460px;
+  height: 54px;
+  padding-left: 28px;
+  font-size: 18px;
+  border-radius: 10px;
+  font-family: "MsR";
+  border: 1px solid lightgray;
+}
+
+.formUser input::-webkit-input-placeholder {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.formUser input:-ms-input-placeholder {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.formUser input::-ms-input-placeholder {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.formUser input::placeholder {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.formUser .errors {
+  color: red;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  margin-top: 5px;
+}
+/*# sourceMappingURL=userReg.css.map */

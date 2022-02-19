@@ -1,0 +1,189 @@
+.singleBlogPage {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 100px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.singleBlogPage .searchCont {
+  width: 100%;
+  background-image: url("../image/search about.jpg");
+  background-size: cover;
+}
+
+.singleBlogPage .blogimage {
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+}
+
+.singleBlogPage .aboutUsCont {
+  width: 98%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 10px;
+}
+
+.singleBlogPage .aboutUsCont .pageLink {
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 10px;
+          column-gap: 10px;
+  color: black;
+  font-family: MsR;
+  font-size: 13px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.singleBlogPage .aboutUsCont .pageLink a {
+  color: black;
+}
+
+.singleBlogPage .aboutUsCont .pageLink svg {
+  width: 10px;
+}
+
+.singleBlogPage .aboutUsCont .aboutText {
+  width: 90%;
+  margin-top: 48px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.singleBlogPage .aboutUsCont .aboutText p {
+  margin: 0px;
+}
+
+.singleBlogPage .aboutUsCont .aboutText .title {
+  font-size: 36px;
+  color: #00252E;
+  margin-top: 20px;
+}
+
+.singleBlogPage .aboutUsCont .aboutText .text {
+  margin-top: 10px;
+  margin-left: 10px;
+  font-size: 20px;
+  width: 90%;
+  color: black;
+}
+
+.singleBlogPage .aboutUsCont .aboutText .gridCont {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-top: 53px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  row-gap: 40px;
+}
+
+.singleBlogPage .aboutUsCont .aboutText .item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: "MsR";
+  color: #00252E;
+}
+
+.singleBlogPage .aboutUsCont .aboutText .item .title {
+  margin-top: 57px;
+  font-size: 24px;
+}
+
+.singleBlogPage .aboutUsCont .aboutText .item .title2 {
+  margin-top: 50px !important;
+}
+
+.singleBlogPage .aboutUsCont .aboutText .item .subTitle {
+  margin-top: 20px;
+  color: #00252E;
+  font-weight: 450;
+}
+
+.singleBlogPage .aboutUsCont .aboutText .item .number {
+  margin-top: 19px;
+}
+
+.singleBlogPage .aboutUsCont .aboutText .item .flexCont {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.singleBlogPage .aboutUsCont .aboutText .item .flexCont a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 20px;
+  -webkit-column-gap: 16px;
+          column-gap: 16px;
+}
+
+.singleBlogPage .aboutUsCont .aboutText .item .flexCont a p {
+  margin: 0px;
+}
+
+@media only screen and (max-width: 958px) {
+  .singleBlogPage .aboutUsCont {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .singleBlogPage .aboutText {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .singleBlogPage .mainTitle {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px !important;
+  }
+  .singleBlogPage .text {
+    font-size: 17px !important;
+  }
+}
+/*# sourceMappingURL=singleBlog.css.map */

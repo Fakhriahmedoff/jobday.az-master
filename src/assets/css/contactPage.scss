@@ -1,0 +1,157 @@
+.contactPage
+{
+    
+    width: 100%;
+    display: flex;
+    margin-bottom: 100px;
+    flex-direction: column;
+    align-items: center;
+    .searchCont
+    {
+        width: 100%;
+        background-image: url('../image/search contact.jpg');
+        background-size: cover;
+    }
+
+    .contactCont
+    {
+        display: flex; flex-direction: column;
+        margin-top: 10px;
+        .pageLink
+        {
+            align-self: flex-start;
+            display: flex;
+            column-gap: 10px;
+            color: black;
+            font-family: MsR;
+            font-size: 13px;
+            align-items: center;
+            a
+            {
+                color: black;
+            }
+            svg 
+            {
+                width: 10px;
+            }
+        }
+        .aboutText
+        {
+            margin-top: 48px;
+
+            p 
+            {
+                margin: 0px;
+            }
+            .title 
+            {
+                font-size: 36px;
+                color: #00252E;
+            }
+            
+            .gridCont
+            {
+                display: flex;
+                justify-content: center;
+                column-gap: 211px;
+                padding-left: 30px;
+                padding-right: 30px;
+                margin-top: 53px;
+                box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.25);
+                border-radius: 10px;
+                padding-bottom: 42px;
+            }
+            .item
+            {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                font-family: "MsR";
+                color: #00252E;
+                .title
+                {
+                    margin-top: 42px;
+                    font-size: 24px;
+                    font-weight: 700;
+
+                }
+                .title2
+                {
+                    margin-top: 30px;
+                }
+                .subTitle 
+                {
+                    margin-top: 20px;
+                    a 
+                    {
+                        color: #00252E;
+                    }
+                    color: #00252E;
+                    font-weight: 200;
+                    font-size: 23px;
+                }
+                .number
+                {
+                    font-size: 23px;
+                    color: #00252E !important;
+                    margin-top: 20px !important;
+                }
+                .flexCont
+                {
+                    display: flex;
+                    flex-direction: column;
+                    a 
+                    {
+                        display: flex;
+                        align-items: center;
+                        margin-top: 23px;
+                        column-gap: 16px;
+                        p 
+                        {
+                            margin: 0px;
+                        }
+                    }
+                }
+            }
+        }
+    } 
+
+}
+
+
+//Mobile
+@media only screen and (max-width: 958px) {
+    .contactPage
+    {
+        .title
+        {
+            width: 100%;
+            text-align: center;
+        }
+        .aboutText
+        {
+            width: 95% !important;
+        }
+        .gridCont
+        {
+            width: 100% !important;
+            height: auto;
+            flex-direction: column;
+            .cont 
+            {
+                width: 100%;
+                text-align: center;
+            }
+            .flexCont
+            {
+                width: 100%;
+                a 
+                {
+                    text-align: center;
+                    justify-content: center;
+                }
+                text-align: center;
+            }
+        }
+    }
+}

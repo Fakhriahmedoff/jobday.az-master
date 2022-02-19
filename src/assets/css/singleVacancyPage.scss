@@ -1,0 +1,387 @@
+.formContApply
+{
+    width: auto;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    
+    .title 
+    {
+        width: 100%;
+        text-align: center;
+        font-size: 20px;
+        font-weight: 700;
+    }
+    .selectPdfForm 
+    {
+        width: 300px;
+        height: auto;
+        padding: 30px;
+        border-radius: 10px;
+        background-color: #fff;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .radiobtns
+        {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            .radioCont
+            {
+                display: flex;
+                width: 100%;
+                justify-content: space-between;
+            }
+        }
+        .btnCont
+        {
+            display: flex;
+            column-gap: 13px;
+            button 
+            {
+                width: 55px;
+                height: 29px;
+                background: #3D92A7;
+                border-radius: 6px;
+                border: none;
+                
+            }
+            a 
+            {
+                width: 55px;
+                height: 29px;
+                background: #3D92A7;
+                border-radius: 6px;
+                border: none;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+        .uploadBtn
+        {
+            width: 100%;
+            height: 40px;
+            padding: 10px;
+            margin-top: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #00252e;
+            color: white;
+            font-size: 18px;
+            border: none;
+            border-radius: 5px;
+            font-family: "MsM" ;
+            transition:0.5s color  , 0.5s background-color;
+            &:hover 
+            {
+                background-color: white;
+                border: 1px solid #00252e;
+                color: #00252e;
+                transition:0.5s color ,  0.5s background-color;
+            }
+        }
+    }
+}
+
+.signleVacancyPage
+{
+    
+    width: 100%;
+    display: flex;
+    margin-bottom: 100px;
+    margin-top: 31px;
+    flex-direction: column;
+    align-items: center;
+    .hrSinglePage
+    {
+        border-top: 1px dashed #3D92A7;
+        margin: 0px;
+        width: 100%;
+        height: 0px;
+    }
+    .emailaddress
+    {
+        width: 100%;
+        display: flex;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        font-size: 12px;
+    }
+
+    a 
+    {
+        color: #000000;
+    }
+    .vacancyCont
+    {
+        width: 70%; display: flex; flex-direction: column;
+    } 
+    
+    .pageLink
+    {
+        align-self: flex-start;
+        display: flex;
+        column-gap: 10px;
+        color: black;
+        font-family: MsR;
+        font-size: 11px;
+        align-items: center;
+        a
+        {
+            color: black;
+        }
+        svg 
+        {
+            width: 10px;
+        }
+    }
+    .flexCont
+    {
+        display: flex;
+        column-gap: 26px;
+        margin-top: 55px;
+        .mainSide
+        {
+            width: 85%;
+            box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.25);
+            border-radius: 10px;
+            display: flex;
+            flex-direction: column;
+            padding: 30px 26px 100px 30px;
+            
+
+
+            .topSide 
+            {
+                display: flex;
+                flex-wrap: wrap;
+                grid-gap: 36px;
+                .logo
+                {
+                    width: 70px;
+                    height: 70px;
+                    border: 1px solid #00252E;
+                    border-radius: 50%;
+                }
+                .about 
+                {
+                    width: auto;
+                    color: #00252E;
+                    font-family: "MsR";
+                    display: flex;
+                    flex-direction: column;
+                    .title 
+                    {
+                        font-size: 24px;
+                        font-weight: 600;
+                    }
+                    .subTitle 
+                    {
+                        font-size: 18px;
+                        margin-top: 10px;
+                        font-weight: 450;
+                        
+                    }
+                    .date 
+                    {
+                        margin-top: 16px;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 16px;
+                    }
+                    .priceCont
+                    {
+                        display: flex;
+                        width: 100%;
+                        .price
+                        {
+                            margin-top: 16px;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            font-size: 16px;
+                            height: 37px;
+                            padding-left: 10px;
+                            padding-right: 10px;
+                            max-width: 180px;
+                            background: #3D92A7;
+                            color: white;
+                            border-radius: 10px;
+                        }
+                        
+                    }
+                    p 
+                    {
+                        margin: 0px;
+                    }
+                }
+                .premiumOrNot
+                {
+                    width: 60px;
+                }
+            }
+            .middleSide
+            {
+                margin-top: 38px;
+                font-family: "MsR";
+                p 
+                {
+                    margin: 0px;
+                }
+                .title
+                {
+                    font-weight: 600;
+                    font-size: 24px;
+                    color: #00252E;
+                }
+                .title2
+                {
+                    margin-top: 37px;
+                }
+                .body
+                {
+                    margin-top: 24px;
+                    line-height: 22px;
+                    width: 100%;
+                }
+            }
+            .button
+            {
+                width: 286px;
+                height: 49px;
+                font-size: 18px;
+                background: #3D92A7;    
+                border-radius: 10px;
+                margin-top: 50px;
+                margin-bottom: 36px;
+            }
+        }
+        .subSide
+        {
+            min-width: 226px;
+            padding-right: 40px;
+            padding-top: 60px;
+            padding-left: 40px;
+            min-height:611px ;
+            box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.25);
+            border-radius: 10px;
+            font-family: "MsR";
+            .category , .category2
+            {
+                min-height: 50px !important;
+            }
+            .category
+            {
+                margin-top: 25px;
+                p 
+                {
+                    margin: 0px;
+                }
+                .title
+                {
+                    font-size: 24px;
+                    font-weight: 600;
+                }
+                .subTitle 
+                {
+                    font-size: 16px;
+                    margin-top: 13px;
+                    // margin-left: 8.5px;
+                    font-weight: 500;
+                }
+            }
+        }
+    }
+
+
+}
+
+
+  //Mobile 
+  @media only screen and (max-width: 1100px) {
+    .signleVacancyPage
+    {
+
+        .vacancyCont
+        {
+            width: 85%; display: flex; flex-direction: column;
+        } 
+
+
+    }
+    
+}
+  //Mobile 
+  @media only screen and (max-width: 900px) {
+    .signleVacancyPage
+    {
+        .vacancyCont
+        {
+            width: 95%;
+            align-items: center !important;
+            .flexCont
+            {
+                flex-direction: column;
+                row-gap: 37px;
+                align-items: center;
+            }
+            .subSide
+            {
+                padding: 20px 30px 20px 30px;
+                width: 90%;
+                height: 680px !important;
+                padding-top: 20px !important;
+                // display: grid;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                // grid-template-columns: repeat(2, 50% );
+                .category 
+                {
+                    margin-top: 0px !important;
+                }
+                .category1 
+                {
+                    // border-right: 1px solid #3D92A7;
+                    margin-top: 0px !important;
+                }
+                .category2
+                {
+                    // margin-left: 20px;
+                    margin-top: 0px !important;
+                }
+                .subTitle
+                {
+                    width: 100%;
+                    white-space: nowrap;
+                    text-overflow: ellipsis;
+                    overflow: hidden;
+                }
+                // .category{
+                //     width: auto !important;
+                //     height: auto !important;
+                // }
+                .title
+                {
+                    font-size: 18px !important;
+                }
+            }
+            .mainSide
+            {
+                // order: 2;
+                width: 90%;
+            }
+
+        } 
+
+
+    }
+    
+}

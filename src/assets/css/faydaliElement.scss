@@ -1,0 +1,38 @@
+.faydaliCont
+{
+    width: 300px;
+    height: 332px;
+    background-color: transparent;
+    .imgCont 
+    {
+        width: 300px;
+        height: 195px;
+        border-radius: 10px;
+    }
+    p 
+    {
+        margin: 0px;
+        color: #00252E;
+    }
+    .title 
+    {
+        margin-top: 30px;
+        font-size: 18px;
+        font-weight: 500;
+        font-family: "MsR";
+        width: 276px;
+        @media screen and (max-width:600px) {
+            text-align: center;
+        }
+    }
+    transition: 0.3s;
+    &:hover 
+    {
+        transform: translateY(-10px);
+        filter: drop-shadow(0px 0px 12px rgba(0, 0, 0, 0.25));
+        p 
+        {
+            color: #3D92A7;
+        }
+    }
+}

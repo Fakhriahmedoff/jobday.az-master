@@ -1,0 +1,108 @@
+.blogListing
+{
+    
+    width: 100%;
+    display: flex;
+    margin-bottom: 100px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    .vacancyCont
+    {
+        width: 95%; display: flex; flex-direction: column;
+        margin-top: 10px;
+    }
+    .pageLink
+    {
+        display: flex;
+        column-gap: 10px;
+        color: black;
+        font-family: MsR;
+        font-size: 11px;
+        // margin-left: 90px;
+        margin-top: 10px;
+        align-items: center;
+        font-size: 13px;
+        svg 
+        {
+            width: 10px;
+        }
+    }
+    
+    .titlePage
+    {
+        font-size: 36px;
+        font-family: "MsR";
+        color: #00252E;
+        // margin-left: 90px;   
+        margin-bottom: 0px;
+    }
+    
+    .dateSelection
+    {
+        width: 190px;
+        height: 36px;
+        align-self: flex-end;
+        background: #FFFFFF;
+        border: 1px solid #3D92A7;
+        box-sizing: border-box;
+        border-radius: 5px;
+    }
+    .searchCont
+    {
+        width: 100%;
+        background-image: url('../image/Search\ blog\ list.jpg');
+        background-position: center;
+        background-size: cover;
+    }
+    .gridCont
+    {
+        display: flex;
+        flex-wrap: wrap;
+        width: 95%;
+        column-gap: 50px;
+        margin-top: 46px;
+        row-gap: 43px;
+    }
+}
+
+
+//Mobile
+@media only screen and (max-width: 900px) {
+    .blogListing
+    {
+        .gridCont
+        {
+            
+        }
+    }
+}
+//Mobile
+@media only screen and (max-width: 641px) {
+    .blogListing
+    {
+        .titlePage
+        {
+            text-align: center;
+            margin: 0px;
+            padding: 0px;
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+    }
+}
+//Mobile
+@media only screen and (max-width: 450px) {
+    .blogListing
+    {
+        .titlePage
+        {
+            font-size: 24px;
+        }
+        .dateSelection
+        {
+            width: 300px;
+            align-self: center !important;
+        } 
+    }
+}

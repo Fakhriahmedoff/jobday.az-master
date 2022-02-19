@@ -1,0 +1,339 @@
+.AsideForCVandVacancy {
+  width: 218px;
+  background: #FFFFFF;
+  /* /shadow */
+  -webkit-box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  height: 974px;
+  padding: 26px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.AsideForCVandVacancy p {
+  margin: 0px;
+}
+
+.AsideForCVandVacancy .title {
+  font-size: 24px;
+  color: #00252E;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+}
+
+.AsideForCVandVacancy .categoriesCont {
+  width: 215px;
+  margin-top: 20px;
+  height: 270px;
+  overflow-y: scroll;
+  overflow-x: auto;
+  /* width */
+  /* Track */
+  /* Handle */
+}
+
+.AsideForCVandVacancy .categoriesCont::-webkit-scrollbar {
+  width: 2px;
+  height: 2px;
+  border-radius: 3px;
+}
+
+.AsideForCVandVacancy .categoriesCont::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 3px;
+}
+
+.AsideForCVandVacancy .categoriesCont::-webkit-scrollbar-thumb {
+  background: gray;
+  border-radius: 5px;
+}
+
+.AsideForCVandVacancy .categoriesCont .mainCategory {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 9fr 1fr;
+      grid-template-columns: 1fr 9fr 1fr;
+  font-size: 12px;
+  min-width: 90px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-column-gap: 7px;
+          column-gap: 7px;
+  font-family: "MsR";
+  color: #00252E;
+  margin-top: 14px;
+}
+
+.AsideForCVandVacancy .categoriesCont .mainCategory .checkBox {
+  width: 24px;
+  height: 24px;
+}
+
+.AsideForCVandVacancy .categoriesCont .mainCategory input {
+  background: #3D92A7 !important;
+}
+
+.AsideForCVandVacancy .categoriesCont .mainCategory .arrow {
+  width: 24px;
+  height: 24px;
+  border: none;
+  background-color: transparent;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-item-align: center;
+      align-self: center;
+}
+
+.AsideForCVandVacancy .categoriesCont .subCategoryCont {
+  display: none;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.AsideForCVandVacancy .categoriesCont .subCategory {
+  margin-left: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-column-gap: 13px;
+          column-gap: 13px;
+  font-size: 12px;
+  margin-top: 14px;
+}
+
+.AsideForCVandVacancy .categoriesCont .subCategory input {
+  margin: 0px;
+  padding: 0px;
+}
+
+.AsideForCVandVacancy .categoriesCont .subCategory .subCheckbox {
+  width: 18px;
+  height: 18px;
+}
+
+.AsideForCVandVacancy .hrCategory {
+  margin-top: 34px;
+  width: 100%;
+  height: 1px;
+  border: none;
+  background: #3D92A7;
+}
+
+.AsideForCVandVacancy .salaryCont .salaryTitle {
+  font-size: 24px;
+  color: #00252E;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.AsideForCVandVacancy .salaryCont .inputs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-column-gap: 6px;
+          column-gap: 6px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.AsideForCVandVacancy .salaryCont .inputs hr {
+  width: 8px;
+  height: 1px;
+  border: none;
+  background: #C4C4C4;
+}
+
+.AsideForCVandVacancy .salaryCont .inputs input {
+  width: 64px;
+  height: 27px;
+  padding-left: 9px;
+  border-radius: 4px;
+  border: 1px solid #C4C4C4;
+}
+
+.AsideForCVandVacancy .employmentCont {
+  margin-top: 10px;
+}
+
+.AsideForCVandVacancy .employmentCont .employmentTitle {
+  font-size: 24px;
+  color: #00252E;
+  margin-bottom: 10px;
+}
+
+.AsideForCVandVacancy .employmentCont .checkboxCont {
+  margin-top: 10px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 20px 170px;
+      grid-template-columns: 20px 170px;
+  grid-gap: 13px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.AsideForCVandVacancy .employmentCont .checkboxCont .workType {
+  width: 24px !important;
+  height: 24px !important;
+  margin: 0px;
+  padding: 0px;
+}
+
+.AsideForCVandVacancy .employmentCont .checkboxCont .category {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 14px;
+  font-family: "MsR";
+  -webkit-column-gap: 8px;
+          column-gap: 8px;
+}
+
+.AsideForCVandVacancy .workCont {
+  margin-top: 20px;
+}
+
+.AsideForCVandVacancy .workCont .workTitle {
+  font-size: 24px;
+  color: #00252E;
+  margin-bottom: 10px;
+}
+
+.AsideForCVandVacancy .workCont .checkboxCont {
+  margin-top: 10px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 20px 170px;
+      grid-template-columns: 20px 170px;
+  grid-gap: 13px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.AsideForCVandVacancy .workCont .checkboxCont .workExp {
+  width: 24px;
+  height: 24px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.AsideForCVandVacancy .workCont .checkboxCont .category {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 14px;
+  font-family: "MsR";
+  -webkit-column-gap: 8px;
+          column-gap: 8px;
+}
+
+@media only screen and (max-width: 958px) {
+  .AsideForCVandVacancy {
+    width: 90%;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  .AsideForCVandVacancy .categoryAndButton {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-column-gap: 25px;
+            column-gap: 25px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    font-family: 'MsR';
+  }
+  .AsideForCVandVacancy .categoryAndButton button {
+    width: 70px;
+    font-family: 'MsR';
+    height: 30px;
+    border: 1px solid white;
+    background-color: #00252E;
+    color: white;
+    border-radius: 5px;
+  }
+  .AsideForCVandVacancy .categoriesCont {
+    width: 90%;
+  }
+  .AsideForCVandVacancy .salaryCont {
+    width: 70%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .AsideForCVandVacancy .salaryCont .salaryTitle {
+    text-align: center;
+    margin-left: -15%;
+  }
+  .AsideForCVandVacancy .employmentCont {
+    width: 90%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .AsideForCVandVacancy .employmentCont .employmentTitle {
+    text-align: center;
+  }
+  .AsideForCVandVacancy .workCont {
+    width: 90%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .AsideForCVandVacancy .workCont .workTitle {
+    text-align: center;
+  }
+}
+/*# sourceMappingURL=asideForCVandVacancy.css.map */

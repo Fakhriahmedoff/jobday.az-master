@@ -1,0 +1,207 @@
+.signleVacancyPage
+{
+    
+    width: 100%;
+    display: flex;
+    margin-bottom: 100px;
+    margin-top: 31px;
+    flex-direction: column;
+    align-items: center;
+    a 
+    {
+        color: #000000;
+    }
+
+    .vacancyCont
+    {
+        width: 1249px; display: flex; flex-direction: column;
+
+    } 
+    
+    .emailaddress
+    {
+        width: 100%;
+        display: flex;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+    }
+
+    .pageLink
+    {
+        align-self: flex-start;
+        display: flex;
+        column-gap: 10px;
+        color: black;
+        font-family: MsR;
+        font-size: 11px;
+        align-items: center;
+        a
+        {
+            color: black;
+        }
+        svg 
+        {
+            width: 10px;
+        }
+    }
+    .flexCont
+    {
+        display: flex;
+        column-gap: 26px;
+        margin-top: 55px;
+        .mainSide
+        {
+            width: 680px;
+            min-height: 900px;
+            box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.25);
+            border-radius: 10px;
+            display: flex;
+            flex-direction: column;
+            padding-top: 36px;
+            padding-left: 60px;
+            padding-right: 60px;
+            .topSide 
+            {
+                display: grid;
+                grid-template-columns: 70px 471px 60px;
+                grid-gap: 36px;
+                .logo
+                {
+                    width: 70px;
+                    height: 70px;
+                    border: 1px solid #00252E;
+                    border-radius: 50%;
+                }
+                .about 
+                {
+                    width: 471px;
+                    color: #00252E;
+                    font-family: "MsR";
+                    display: flex;
+                    flex-direction: column;
+                    .title 
+                    {
+                        font-size: 24px;
+                        font-weight: 600;
+                    }
+                    .subTitle 
+                    {
+                        font-size: 18px;
+                        margin-top: 20px;
+                        font-weight: 450;
+                    }
+                    .dateAgeGender 
+                    {
+                        margin-top: 16px;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 16px;
+                        display: flex;
+                        column-gap: 31px;
+                        align-items: center;
+                    }
+                    .priceCont
+                    {
+                        display: flex;
+                        width: 100%;
+                        .price
+                        {
+                            margin-top: 16px;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            font-size: 16px;
+                            height: 37px;
+                            padding-left: 10px;
+                            padding-right: 10px;
+                            max-width: 180px;
+                            background: #3D92A7;
+                            color: white;
+                            border-radius: 10px;
+                        }
+                        
+                    }
+                    p 
+                    {
+                        margin: 0px;
+                    }
+                }
+                .premiumOrNot
+                {
+                    width: 60px;
+                }
+            }
+            .middleSide
+            {
+                margin-top: 38px;
+                font-family: "MsR";
+                padding-bottom: 40px;
+                p 
+                {
+                    margin: 0px;
+                }
+                .title
+                {
+                    font-weight: 600;
+                    font-size: 24px;
+                    color: #00252E;
+                }
+                .title2
+                {
+                    margin-top: 47px;
+                }
+                .body
+                {
+                    margin-top: 24px;
+                    line-height: 22px;
+                    width: 604px;
+                }
+            }
+            .button
+            {
+                width: 286px;
+                height: 49px;
+                font-size: 18px;
+                background: #3D92A7;    
+                border-radius: 10px;
+                margin-top: 114px;
+                margin-bottom: 36px;
+            }
+        }
+        .subSide
+        {
+            min-width: 320px;
+            padding-right: 40px;
+            padding-top: 60px;
+            padding-bottom: 60px;
+            padding-left: 40px;
+            height:760px ;
+            box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.25);
+            border-radius: 10px;
+            font-family: "MsR";
+            .category
+            {
+                margin-top: 25px;
+                p 
+                {
+                    margin: 0px;
+                }
+                .title
+                {
+                    font-size: 24px;
+                    font-weight: 600;
+                }
+                .subTitle 
+                {
+                    font-size: 16px;
+                    margin-top: 13px;
+                    margin-left: 8.5px;
+                    font-weight: 500;
+                }
+            }
+        }
+    }
+
+
+}

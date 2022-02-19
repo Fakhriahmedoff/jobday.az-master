@@ -1,0 +1,113 @@
+{
+    "addVacancy-AZ":{
+        "sendReqNT"  :"Sorğunuz Müvəffəqiyyətlə göndərildi!",
+        "sendWarnNT":"Məlumatlarda yanlışlıq mövcuddur",
+        "createdVacancyNT":"Vakansiyanız müvəffəqiyyətlə yaradıldı!",
+        "createdVacancyWarnNT":"Daxil etdiyiniz məlumatları yanlışdır!",
+        "day":"gün",
+        "selectAndPay":"Seç və Ödənişə keç",
+
+        "validation": {
+            "name":"Vakansiya adını daxil edin.",
+            "requires":"Namizəddən tələbləri daxil edin",
+            "about":"İş barədə məlumatı daxil edin"
+        },
+        "form": {
+            "title": "Vakansiya əlavə et",
+            "name": "Vakansiya adı",
+            "category": "Kateqoriya",
+            "workExp": "İş təcrübəsi",
+            "empleymentType": "Məşğulluq növü",
+            "education": "Təhsil",
+            "city": "Şəhər",
+            "gender": "Cins",
+            "salary": "Maaş",
+            "salaryMin": "Minimal maaş",
+            "salaryMax": "Maksimal maaş",
+            "age": "Yaş",
+            "ageMin": "Minimal yaş",
+            "ageMax": "Maksimal yaş",
+            "requires":"Namizədə tələblər",
+            "about":"İş barədə məlumat",
+            "createVacancy" : "Ödəniş et və yerləşdir",
+            "createPremium" : "Premium yerləşdir",
+            "vacancyPrice": "Vakansiya yerləşdirilməsi üçün qiymət 20 AZN"
+
+        }
+    },
+
+
+    "addVacancy-EN":{
+        "sendReqNT":"Your request has been sent successfully!",
+        "sendWarnNT":"Your request has already been sent!",
+        "createdVacancyNT":"Your vacancy has been created successfully!",
+        "createdVacancyWarnNT":"The information you entered is incorrect!",
+        "day":"day",
+        "selectAndPay":"Select and Pay",
+
+        "validation": {
+            "name":"Enter the name of the vacancy.",
+            "requires":"Enter the requirements from the candidate",
+            "about":"Enter job information"
+        },
+        "form": {
+            "title": "Add a vacancy",
+            "name": "Vacancy name",
+            "category": "Category",
+            "workExp": "Work experience",
+            "empleymentType": "Type of employment",
+            "education": "Education",
+            "city": "City",
+            "gender": "Gender",
+            "salary": "Salary",
+            "salaryMin": "Minimum salary",
+            "salaryMax": "Maximum salary",
+            "age": "Age",
+            "ageMin": "Minimum age",
+            "ageMax": "Maximum age",
+            "requires":"Requirements for the candidate",
+            "about":"Job information",
+            "createVacancy" : "Оплатите и разместите вакансию",
+            "createPremium" : "Post premium",
+            "vacancyPrice": "Simple vacancy placement costs 20 AZN"
+        }
+    },
+
+
+    "addVacancy-RU":{
+        "sendReqNT":"Ваш запрос успешно отправлен!",
+        "sendWarnNT":"Ваш запрос уже отправлен!",
+        "createdVacancyNT":"Ваша вакансия успешно создана!",
+        "createdVacancyWarnNT":"Введенная вами информация неверна!",
+        "day":"день",
+        "selectAndPay":"Выбрать и оплатить",
+
+        "validation": {
+            "name":"Введите название вакансии.",
+            "requires":"Введите требования от кандидата",
+            "about":"Введите информацию о вакансии"
+        },
+        "form": {
+            "title": "Vakansiya əlavə et",
+            "name": "Название вакансии",
+            "category": "Категория",
+            "workExp": "Рабочий стаж",
+            "empleymentType": "Тип занятости",
+            "education": "Образование",
+            "city": "Город",
+            "gender": "Пол",
+            "salary": "Оплата труда",
+            "salaryMin": "Мин зарплата",
+            "salaryMax": "Макс зарплата",
+            "age": "Возраст",
+            "ageMin": "Мин Возраст",
+            "ageMax": "Макс Возраст",
+            "requires":"Требования к кандидату",
+            "about":"Информация о вакансии",
+            "createVacancy" : "Разместить вакансию",
+            "createPremium" : "Разместить вакансию",
+            "vacancyPrice": "Простое размещение вакансии стоит 20 AZN"
+
+        }
+    } 
+}

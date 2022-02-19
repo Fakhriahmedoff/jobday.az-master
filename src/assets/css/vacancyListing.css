@@ -1,0 +1,248 @@
+.swiperContFilter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 20px;
+  width: 267px;
+  height: 100vh;
+  overflow: scroll;
+  -webkit-transform: translateX(-320px);
+          transform: translateX(-320px);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  left: 0px;
+  position: fixed;
+  z-index: 99999999999;
+  top: 0px;
+  background-color: white;
+  padding: 26px;
+}
+
+.swiperContFilter .rmvBtn {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.swiperContFilter .rmvBtn button {
+  margin-top: 10px;
+  font-size: 18px;
+  font-family: 'MsR';
+  border: none;
+  background-color: transparent;
+}
+
+.vacancyListingPage {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 100px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.vacancyListingPage .loader {
+  width: 100%;
+  margin-top: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-column-gap: 70px;
+          column-gap: 70px;
+}
+
+.vacancyListingPage .filtrDiv {
+  margin-top: 56px;
+}
+
+.vacancyListingPage .filtering {
+  width: 300px;
+  height: 49px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  background: #3D92A7;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  font-size: 18px;
+  font-family: "MsR";
+}
+
+.vacancyListingPage .filtering:hover {
+  background-color: white;
+  color: #3D92A7;
+  border: 1px solid #3D92A7;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+.vacancyListingPage .vacancyCont {
+  width: 95%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.vacancyListingPage .pageLink {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 10px;
+          column-gap: 10px;
+  margin-top: 20px;
+  color: black;
+  font-family: MsR;
+  font-size: 13px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.vacancyListingPage .pageLink svg {
+  width: 10px;
+}
+
+.vacancyListingPage .flexCont {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 70px;
+          column-gap: 70px;
+}
+
+.vacancyListingPage .titlePage {
+  font-size: 36px;
+  font-family: "MsR";
+  color: #00252E;
+  margin-left: 90px;
+  margin-bottom: 0px;
+}
+
+.vacancyListingPage .AsideForCVandVacancy {
+  margin-top: 30px;
+}
+
+.vacancyListingPage .dateSelection {
+  width: 190px;
+  height: 36px;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  background: #FFFFFF;
+  border: 1px solid #3D92A7;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 5px;
+}
+
+.vacancyListingPage .searchCont {
+  width: 100%;
+  background-image: url("../image/search vacansy list.jpg");
+  background-position: center;
+}
+
+.vacancyListingPage .pagination {
+  margin-top: 80px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.vacancyListingPage .pagination .MuiPagination-ul {
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.vacancyListingPage .pagination .MuiPagination-ul li button {
+  border: 1px solid #C4C4C4;
+  font-size: 18px;
+  width: 27px;
+  height: 30px;
+  font-family: "MsR";
+}
+
+.vacancyListingPage .pagination .MuiPagination-ul .Mui-selected {
+  background: #3D92A7;
+  color: white;
+}
+
+@media only screen and (max-width: 1051px) {
+  .vacancyListingPage .vacancyCont {
+    width: 98%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .vacancyListingPage .flexCont {
+    -webkit-column-gap: 20px;
+            column-gap: 20px;
+  }
+}
+
+@media only screen and (max-width: 958px) {
+  .vacancyListingPage .pageLink {
+    -ms-flex-item-align: start;
+        align-self: flex-start;
+  }
+  .vacancyListingPage .filtering {
+    margin: 0px;
+  }
+  .vacancyListingPage .title {
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    margin-top: 42px;
+    margin-bottom: 30px;
+    font-size: 24px;
+  }
+  .vacancyListingPage .vacancyCont {
+    width: 98%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .vacancyListingPage .flexCont {
+    -webkit-column-gap: 20px;
+            column-gap: 20px;
+  }
+  .vacancyListingPage .gridCont {
+    margin-top: 20px;
+  }
+}
+/*# sourceMappingURL=vacancyListing.css.map */

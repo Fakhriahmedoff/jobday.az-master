@@ -1,0 +1,280 @@
+.ThanksPage2 {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 100px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.ThanksPage2 .ThanksCont {
+  width: 98%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 10px;
+  width: 1100px;
+}
+
+.ThanksPage2 .ThanksCont .billImg {
+  margin: 0px;
+}
+
+.ThanksPage2 .ThanksCont .billImg svg {
+  width: 150px;
+  height: 150px;
+  color: #3D92A7;
+}
+
+.ThanksPage2 .ThanksCont .billAndText {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 80px;
+}
+
+.ThanksPage2 .ThanksCont .billAbout {
+  font-size: 20px;
+  font-family: "MsR";
+  font-weight: 500;
+  width: 470px;
+  line-height: 50px;
+  margin-top: 0px;
+}
+
+.ThanksPage2 .ThanksCont .buttonCont {
+  margin-top: 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 470px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+}
+
+.ThanksPage2 .ThanksCont .buttonCont .billBtn {
+  width: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  height: 59px;
+  background: #3D92A7;
+  border-radius: 10px;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 10px;
+          column-gap: 10px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 16px;
+  font-family: 'MsR';
+  border: none;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.ThanksPage2 .ThanksCont .buttonCont .billBtn:hover {
+  background-color: #00252E;
+}
+
+@media screen and (max-width: 1200px) {
+  .ThanksPage2 .ThanksCont {
+    width: 100%;
+  }
+  .ThanksPage2 .ThanksCont .billAndText {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: auto;
+    width: 622px;
+  }
+  .ThanksPage2 .ThanksCont .billAndText .billAbout {
+    text-align: center;
+    width: 95%;
+  }
+  .ThanksPage2 .ThanksCont .billAndText .bill {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  .ThanksPage2 .ThanksCont .buttonCont {
+    margin-top: 30px !important;
+    width: 602px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    row-gap: 20px;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .ThanksPage2 .ThanksCont .billAndText {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: auto;
+    width: 362px;
+  }
+  .ThanksPage2 .ThanksCont .billAndText .billAbout {
+    width: 95%;
+  }
+  .ThanksPage2 .ThanksCont .billAndText .bill {
+    width: 360px;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  .ThanksPage2 .ThanksCont .buttonCont {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 10px;
+    row-gap: 10px;
+    margin-top: 10px !important;
+    width: 360px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    row-gap: 20px;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+}
+
+@media only screen and (max-width: 958px) {
+  .ThanksPage .mainTitle {
+    text-align: center;
+  }
+  .ThanksPage .item1, .ThanksPage .item2, .ThanksPage .item3 {
+    width: 100%;
+    -webkit-box-align: start !important;
+        -ms-flex-align: start !important;
+            align-items: flex-start !important;
+  }
+}
+
+.bill {
+  -webkit-transform: scale(0.7);
+          transform: scale(0.7);
+  width: 602px;
+  height: 729px;
+  background-image: url(../image/chekk.png);
+  background-size: cover;
+  background-position: top center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 38px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-family: "MsR";
+  margin-top: 55px;
+}
+
+.bill h2 {
+  margin: 0px;
+  margin-top: 29px;
+}
+
+.bill .colorchange {
+  color: #3D92A7;
+}
+
+.bill .elements {
+  margin-top: 46px;
+  width: 90%;
+  font-size: 18px;
+  font-weight: 700;
+  row-gap: 33px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.bill .element {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-bottom: 1px solid lightgray;
+}
+
+.bill .price {
+  margin-top: 45px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  width: 90%;
+  row-gap: 12 px;
+}
+
+.bill .price .priceText {
+  font-size: 18px;
+  font-weight: 500;
+  margin: 0px;
+}
+
+.bill .price .priceItself {
+  font-size: 48px;
+  font-weight: 500;
+  margin: 0px;
+}
+/*# sourceMappingURL=thanksPage2.css.map */

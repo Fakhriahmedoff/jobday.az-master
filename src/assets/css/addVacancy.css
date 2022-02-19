@@ -1,0 +1,146 @@
+.AddVacancy .keyButton button:disabled {
+  background-color: lightgray !important;
+}
+
+.addVacancy {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  overflow: auto;
+}
+
+@media screen and (max-width: 700px) {
+  .addVacancy {
+    overflow: auto;
+  }
+}
+
+.addVacancy .close {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.addVacancy .close button {
+  background-color: transparent;
+  border: none;
+  font-size: 15px;
+  font-weight: 300;
+  color: gray;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.addVacancy .close button:hover {
+  color: black;
+}
+
+.addVacancy button:disabled {
+  background-color: gray;
+}
+
+.addVacancy .titleCard {
+  text-align: start !important;
+  width: 90%;
+  font-size: 36px !important;
+  margin: 0px !important;
+  font-weight: 500 !important;
+  font-family: "MsR";
+}
+
+@media screen and (max-width: 700px) {
+  .addVacancy .titleCard {
+    text-align: center !important;
+  }
+}
+
+.addVacancy .selectPdfForm {
+  background-color: white;
+  overflow: hidden;
+  border-radius: 10px;
+  padding: 30px;
+  width: auto !important;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+@media screen and (max-width: 900px) {
+  .addVacancy .selectPdfForm {
+    margin-top: 250px;
+  }
+}
+
+.addVacancy .radiobtns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal !important;
+  -webkit-box-direction: normal !important;
+      -ms-flex-direction: row !important;
+          flex-direction: row !important;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-column-gap: 20px;
+          column-gap: 20px;
+  row-gap: 20px;
+  margin-top: 30px;
+  width: 90%;
+}
+
+@media screen and (max-width: 700px) {
+  .addVacancy .radiobtns {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+.addVacancy .radiobtns .moneyCard {
+  height: auto !important;
+  width: auto !important;
+  padding: 30px;
+  row-gap: 10px;
+}
+
+.addVacancy .radiobtns .moneyCard .title {
+  font-size: 24px;
+}
+
+.addVacancy .radiobtns .moneyCard p {
+  margin: 0px;
+}
+
+.addVacancy .radiobtns .inputElement {
+  width: 250px;
+  height: 250px;
+}
+
+.addVacancy .button {
+  margin-top: 0px;
+}
+/*# sourceMappingURL=addVacancy.css.map */

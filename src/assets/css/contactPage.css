@@ -1,0 +1,187 @@
+.contactPage {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 100px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contactPage .searchCont {
+  width: 100%;
+  background-image: url("../image/search contact.jpg");
+  background-size: cover;
+}
+
+.contactPage .contactCont {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 10px;
+}
+
+.contactPage .contactCont .pageLink {
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 10px;
+          column-gap: 10px;
+  color: black;
+  font-family: MsR;
+  font-size: 13px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contactPage .contactCont .pageLink a {
+  color: black;
+}
+
+.contactPage .contactCont .pageLink svg {
+  width: 10px;
+}
+
+.contactPage .contactCont .aboutText {
+  margin-top: 48px;
+}
+
+.contactPage .contactCont .aboutText p {
+  margin: 0px;
+}
+
+.contactPage .contactCont .aboutText .title {
+  font-size: 36px;
+  color: #00252E;
+}
+
+.contactPage .contactCont .aboutText .gridCont {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-column-gap: 211px;
+          column-gap: 211px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-top: 53px;
+  -webkit-box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  padding-bottom: 42px;
+}
+
+.contactPage .contactCont .aboutText .item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: "MsR";
+  color: #00252E;
+}
+
+.contactPage .contactCont .aboutText .item .title {
+  margin-top: 42px;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.contactPage .contactCont .aboutText .item .title2 {
+  margin-top: 30px;
+}
+
+.contactPage .contactCont .aboutText .item .subTitle {
+  margin-top: 20px;
+  color: #00252E;
+  font-weight: 200;
+  font-size: 23px;
+}
+
+.contactPage .contactCont .aboutText .item .subTitle a {
+  color: #00252E;
+}
+
+.contactPage .contactCont .aboutText .item .number {
+  font-size: 23px;
+  color: #00252E !important;
+  margin-top: 20px !important;
+}
+
+.contactPage .contactCont .aboutText .item .flexCont {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.contactPage .contactCont .aboutText .item .flexCont a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 23px;
+  -webkit-column-gap: 16px;
+          column-gap: 16px;
+}
+
+.contactPage .contactCont .aboutText .item .flexCont a p {
+  margin: 0px;
+}
+
+@media only screen and (max-width: 958px) {
+  .contactPage .title {
+    width: 100%;
+    text-align: center;
+  }
+  .contactPage .aboutText {
+    width: 95% !important;
+  }
+  .contactPage .gridCont {
+    width: 100% !important;
+    height: auto;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .contactPage .gridCont .cont {
+    width: 100%;
+    text-align: center;
+  }
+  .contactPage .gridCont .flexCont {
+    width: 100%;
+    text-align: center;
+  }
+  .contactPage .gridCont .flexCont a {
+    text-align: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+/*# sourceMappingURL=contactPage.css.map */

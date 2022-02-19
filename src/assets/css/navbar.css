@@ -1,0 +1,359 @@
+.navCont {
+  width: 99.9%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: -webkit-sticky;
+  position: sticky;
+  background-color: #fff;
+  -webkit-box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.25);
+  top: 0px;
+  z-index: 10;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navCont .bellAndDot {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-item-align: center;
+      align-self: center;
+}
+
+.navCont .bellAndDot img {
+  width: 20px;
+  height: auto;
+}
+
+.navCont .dot {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: orange;
+  margin-top: -20px;
+  margin-left: -5px;
+}
+
+.navCont .dropdown {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navCont .dropdown .memberImgLogged {
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  border: none;
+}
+
+.navCont .dropdown .dropdown-elements {
+  position: absolute;
+  width: 127px;
+  height: 88px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  row-gap: 10px;
+  -webkit-box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.25);
+  margin-top: 29px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: white;
+  font-size: 14px;
+  font-family: "MsM";
+}
+
+.navCont .dropdown .dropdown-elements a {
+  margin: 0px;
+  color: #3D92A7;
+}
+
+.navCont .dropdown .dropdown-elements button {
+  border: none;
+  width: 100%;
+  height: 30px;
+  font-size: 14px;
+  font-family: "MsM";
+  background-color: transparent;
+}
+
+.navCont .dropdown .memberBtnLogged {
+  height: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: none;
+  background-color: transparent;
+  min-width: 128px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-column-gap: 10px;
+          column-gap: 10px;
+  font-size: 14px;
+  font-family: "MsM";
+}
+
+.navCont .navbar {
+  min-width: 65%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-column-gap: 30px;
+          column-gap: 30px;
+  height: 57px;
+  margin-top: 8px;
+}
+
+.navCont .navbar .langDropdown {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 2px;
+}
+
+.navCont .navbar .dropdown {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: auto;
+}
+
+.navCont .navbar .dropdown .mainBtn {
+  background-color: transparent;
+  border: none;
+  text-align: center;
+  width: 55px;
+  height: 25px;
+  font-size: 18px;
+}
+
+.navCont .navbar .dropdown #drop-inside {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  row-gap: 5px;
+  background-color: #fff;
+  padding: 5px;
+  position: absolute;
+  margin-top: 20px;
+}
+
+.navCont .navbar .dropdown #drop-inside button {
+  background-color: #fff;
+  border: none;
+  color: black;
+  font-size: 18px;
+}
+
+.navCont .navbar .dropdown #drop-inside button:hover {
+  color: #3D92A7;
+}
+
+.navCont .navbar a {
+  text-decoration: none;
+  color: #00252e;
+  font-size: 14px;
+  font-family: "MsM";
+}
+
+.navCont .navbar .linkCont {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-column-gap: 25px;
+          column-gap: 25px;
+  font-weight: 600;
+}
+
+.navCont .navbar .memberImg {
+  border: none;
+  background-color: transparent;
+  margin: 0px;
+  padding: 0px;
+  margin-top: 4px;
+}
+
+.navCont .navbar .button {
+  font-size: 11px;
+}
+
+.navCont .navbar .btnCont {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-column-gap: 15px;
+          column-gap: 15px;
+  height: 57px;
+}
+
+.navCont .navbar .btnCont a {
+  margin-left: 1px;
+  margin-top: 5px;
+}
+
+.navCont .navbar .btnCont p {
+  font-size: 18px;
+  margin: 0px;
+  color: #00252e;
+}
+
+.css-1qkj6w8-MuiPaper-root-MuiDrawer-paper {
+  top: 65px !important;
+  width: 100%;
+  background-color: #F6F6F6;
+}
+
+.css-1qkj6w8-MuiPaper-root-MuiDrawer-paper .swiperCont {
+  width: 95%;
+  padding-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.css-1qkj6w8-MuiPaper-root-MuiDrawer-paper .swiperCont .lang {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 45px;
+          column-gap: 45px;
+}
+
+.css-1qkj6w8-MuiPaper-root-MuiDrawer-paper .swiperCont .lang button {
+  font-family: "MsR";
+  font-size: 18px;
+  border: none;
+  background-color: transparent;
+  color: #00252E;
+}
+
+.css-1qkj6w8-MuiPaper-root-MuiDrawer-paper .swiperCont .links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 29px;
+  row-gap: 41px;
+}
+
+.css-1qkj6w8-MuiPaper-root-MuiDrawer-paper .swiperCont .links a {
+  font-size: 16px;
+  color: #00252E;
+  font-family: "MsR";
+  width: 191px;
+  text-align: center;
+  padding-bottom: 5px;
+}
+
+.css-1qkj6w8-MuiPaper-root-MuiDrawer-paper .swiperCont .buttons {
+  margin-top: 41px;
+  row-gap: 19px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.css-1qkj6w8-MuiPaper-root-MuiDrawer-paper .swiperCont .buttons button {
+  height: 35px;
+  width: 300px;
+}
+
+@media only screen and (max-width: 900px) {
+  .navCont {
+    z-index: 9999999999;
+  }
+  .navCont .navbar {
+    width: 95%;
+  }
+  .navCont .navbar .btnCont {
+    -webkit-column-gap: 7px;
+            column-gap: 7px;
+  }
+  .navCont .navbar .dropdown .memberBtnLogged {
+    width: auto !important;
+    min-width: 0px !important;
+  }
+  .navCont .navbar .memberImg {
+    width: 40px;
+    height: 40px;
+  }
+  .navCont .navbar .memberImg img {
+    width: 20px;
+  }
+}
+/*# sourceMappingURL=navbar.css.map */

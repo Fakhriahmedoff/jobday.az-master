@@ -1,0 +1,103 @@
+.cvUpload {
+  margin-top: 50px;
+  width: 320px;
+  min-height: 155px;
+  row-gap: 10px;
+  -ms-flex-item-align: center;
+      align-self: center;
+  border-radius: 10px;
+  outline: none;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  align-items: center;
+  z-index: 100;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.cvUpload .title {
+  margin: 0px;
+  margin-top: 15px;
+  font-family: "MsM";
+}
+
+.cvUpload .addFile {
+  font-family: "MsM";
+  margin: 0px;
+  padding: 0px;
+  width: 95%;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+  background-color: white;
+  border: 1px solid gray;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.cvUpload .addFile .textPhoto {
+  margin: 0px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  color: black;
+  font-size: 18px;
+  width: 150px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  position: absolute;
+  font-family: "MsM";
+}
+
+.cvUpload .addFile .addFileInput {
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+}
+
+.cvUpload .uploadBtn {
+  width: 95%;
+  height: 40px;
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #00252e;
+  color: white;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  font-family: "MsM";
+  -webkit-transition: 0.5s color  , 0.5s background-color;
+  transition: 0.5s color  , 0.5s background-color;
+}
+
+.cvUpload .uploadBtn:hover {
+  background-color: white;
+  border: 1px solid #00252e;
+  color: #00252e;
+  -webkit-transition: 0.5s color ,  0.5s background-color;
+  transition: 0.5s color ,  0.5s background-color;
+}
+/*# sourceMappingURL=resumes.css.map */

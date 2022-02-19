@@ -1,0 +1,346 @@
+.scrollToTop
+{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    background-color: rgb(61, 146, 167);
+    border: 1px solid white;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    bottom: 50px;
+    right: 50px;
+    color: white;
+    z-index: 3000;
+    svg 
+    {
+        width: 45px;
+        height: 45px;
+    }
+}
+.swiperCont
+{
+    height: 650px;
+    .buttons
+    {
+        button 
+        {
+            font-size: 16px;
+            height: 35px;
+        }
+    } 
+}
+
+.homePage {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-between;
+    main 
+    {
+      width: 100%;
+      display: flex;
+      column-gap: 30px;
+      justify-content: center;
+      
+      .welcomeText
+      {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          width: 100%;
+          margin-top: 30px;
+          margin-bottom: 20px;
+          @media screen and (max-width:1200px) {
+            width: 90%;
+          }
+          h2 
+          {
+              font-size: 26px;
+              color: #00252E;
+              font-family: 'MsR';
+              text-align: center;
+              margin: 0px;
+          }
+          p 
+          {
+              font-size: 17px;
+              color: #00252E;
+              font-family: 'MsR';
+              text-align: justify;
+              margin: 0px;
+              margin-top: 15px;
+              line-height: 30px;
+          }
+      }
+      .faydaliContanier
+      {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          width: 100%;
+          margin-top: 72px;
+          margin-bottom: 100px;
+          row-gap: 20px;
+          .faydaliElements
+          {
+              margin-top: 20px;
+              grid-gap: 27px;
+              row-gap: 40px;
+              width: 100%;
+              justify-content: center;
+              display: flex;
+              flex-wrap: wrap;
+              @media screen and (max-width:1600px) and (min-width:1200px) {
+                  flex-direction: column;
+                  align-items: center;
+                  .faydaliCont
+                  {
+                      width: 550px;
+                      height: auto;
+                      .imgCont
+                      {
+                        width:100%;
+                        height: 250px;
+                      }
+                      .title
+                      {
+                          width: 100%;
+                      }
+                  }
+              }
+          }
+          .mainTitle
+          {
+              grid-column: 1/4;
+              text-transform: capitalize;
+              color: #00252E;
+              font-size: 36px;
+              font-family: "MsR";
+              margin: 0px;
+              margin-bottom: 37px;
+              height: 20px;
+              text-align: center;
+          }
+          .button 
+          {
+              width: 240px;
+              height: 50px;
+              font-size: 18px;
+              margin-top: 30px;
+              border-radius: 12px;
+          }
+      }
+      .bannerCont
+      {
+          width: 15%;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          margin-bottom: 10px;
+          margin-top: 10px;
+          .banners
+          {
+              top: 8vh;
+              width: 100%;
+              position: sticky;
+              padding-left: 5px;
+              padding-right: 5px;
+          }
+          .banner1
+          {
+              width: 95%;
+              height: 45vh;
+              background-size: cover;
+              z-index: 3;
+              border-radius: 10px;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              a 
+              {
+                  width: 100%;
+                  height: 45vh;
+                  cursor: pointer;
+              }
+          }
+          .banner2
+          {
+              width: 95%;
+              margin-top: 10px;
+              border-radius: 10px;
+              top: 54vh;
+              height: 45vh;
+              background-color: green;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              a 
+              {
+                  width: 100%;
+                  height: 45vh;
+                  cursor: pointer;
+              }
+          }
+      }
+      .bannerCont
+      {
+          .banner 
+          {
+              width: 100%;
+              height: 40vh;
+              border: 1px solid gray;
+              
+          }
+      }
+      .generalCont
+      {
+          width: 60%;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+      }
+      
+  
+      .vacancyCont2
+      {
+          margin-top: 60px;
+          margin-bottom: 50px;
+      }
+      .bannerMobile
+      {
+          width: 90%;
+          height: 116px;
+          background-color: #00252E;
+          margin-top: 30px;
+          border-radius: 10px;
+      }
+      .vacancyCont
+      {
+        //   margin-top: 44px;
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+          padding-top: 10px;
+          padding-bottom: 10px;
+
+          align-items: center;
+          .button 
+          {
+              width: 240px;
+              height: 50px;
+              font-size: 18px;
+              margin-top: 30px;
+              border-radius: 12px;
+          }
+          .title
+          {
+              text-align: center;
+              margin-top: 0px;
+              font-size: 36px;
+              font-weight: 700;
+              color: #00252E;
+              font-family: "MsR";
+              @media screen and (max-width:700px) {
+                  font-size: 27px;
+              }
+          }
+          .gridCon
+          {
+              width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            grid-gap: 20px;
+            padding-top: 10px;
+            padding-bottom: 20px;
+            transition: all 1s;
+            a 
+            {
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                .lastVacancy
+                {
+                    width: 100%;
+                }
+            }
+          }
+          .gridConCategory
+          {
+                max-width: 1000px;
+                @media screen and (min-width:1200px) and (max-width:1600px)    {
+                    justify-content: space-between !important;
+                    max-width: 900px;
+                }
+
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center !important;
+                grid-gap: 20px;
+                padding-top: 10px;
+                padding-bottom: 20px;
+                transition: all 1s;
+                a 
+                {
+                    width: 100%;
+                    display: flex;
+                    justify-content: center;
+                    .lastVacancy
+                    {
+                        width: 100%;
+                    }
+                }
+          }
+          .gridConCategory
+          {
+              a
+              {
+                  width: auto !important;
+              }
+          }
+
+      }
+  
+      
+  
+  
+    }
+  }
+  
+
+
+
+  //Mobile 
+  @media only screen and (max-width: 1300px) {
+    main
+    {
+        .generalCont 
+        {
+            width: 100% !important;
+            .vacancyCont
+            {
+                width: 95% !important;
+            } 
+        }
+    }
+    
+    }
+  //Mobile 
+  @media only screen and (max-width: 500px) {
+    main
+    {
+        .gridConCategory
+        {
+            overflow: hidden;
+            padding-top: 10px;
+            height: 406px;
+            overflow: hidden;
+        }
+    }
+    
+    }

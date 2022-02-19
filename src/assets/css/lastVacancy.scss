@@ -1,0 +1,162 @@
+.lastVacancy {
+  width: 840px;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.25);
+  border-radius: 15px;
+  
+  .outline {
+    border: 1px solid #00252e;
+    border-radius: 50%;
+
+    @media screen and (min-width:1900px){
+      width: 60px !important;
+      height: 60px !important;
+      .imgCont {
+        width: 60px !important;
+        height: 60px !important; 
+        border-radius: 50%;
+      }
+    }
+
+    @media screen and (min-width:1400px) and (max-width:1900px){
+      width: 50px !important;
+      height: 50px !important;
+      .imgCont {
+        width: 50px !important;
+        height: 50px !important;
+        border-radius: 50%;
+      }
+    }
+
+    @media screen and (min-width:1300px) and (max-width:1400px){
+      width: 45px !important;
+      height: 45px !important;
+      .imgCont {
+        width: 45px !important;
+        height: 45px !important;
+        border-radius: 50%;
+      }
+    }
+
+    @media screen and (max-width:1300px) {
+      width: 35px !important;
+      height: 35px !important;
+      .imgCont {
+        width: 35px !important;
+        height: 35px !important;
+        border-radius: 50%;
+      }
+    }
+    
+  }//outline
+
+  p 
+  {
+    margin: 0px;
+  }
+
+  .nameCont
+  {
+    color: #00252e;
+    font-family: "MsR";
+    margin-left: -20px;
+    .job
+    {
+        font-size: 18px;
+        font-weight: 700;   
+        width: 200px;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis; 
+    }
+    .company
+    {
+      font-size: 15px;
+      font-weight: 700;
+      margin-top: 12px;
+      width: 200px;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      overflow: hidden;
+    }
+  }
+  .workTime
+  {
+     font-size: 16px;
+     color: #3D92A7;
+     font-weight: 700;
+     font-family: "MsR";
+     width: 130px; 
+          overflow: hidden;
+          white-space: nowrap;
+          text-overflow: ellipsis;
+     @media screen and (max-width:1083px) and (min-width:592px) {
+       display: none;
+     }
+  }
+  .price 
+  {
+    font-size: 16px;
+    color: #00252E;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    font-family: "MsR";
+  }
+  .lastDate 
+  {
+    font-size: 16px;
+    color: #00252E;
+    font-family: "MsL";
+    width: 166px;
+  }
+  transition: 0.5s;   
+  &:hover
+  {
+      background: #3D92A7 !important;
+      color: white; 
+      .outline
+      {
+          background-color: #fff;
+          transition: 0.5s;   
+      }
+      .price 
+      {
+          color: white !important;
+          transition: 0.5s;   
+      }
+      .nameCont
+      {
+          color: white;
+          transition: 0.5s;   
+          width: 200px;
+          overflow: hidden;
+      }
+      .workTime
+      {
+          font-weight: 400;
+          color: white !important;
+          transition: 0.5s;  
+          
+      }
+      .time 
+      {
+          color: white !important;
+          transition: 0.5s;   
+      }
+      .lastDate
+      {
+        color: white;
+        transition: 0.5s;   
+
+      }
+  }
+
+}

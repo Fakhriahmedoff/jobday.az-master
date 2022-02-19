@@ -1,0 +1,105 @@
+.topTitle {
+  height: 50px !important;
+  background-color: #3D92A7 !important;
+}
+
+.topTitle p {
+  width: 100px;
+  border-right: 1px dashed white;
+  color: white;
+}
+
+.topTitlereq {
+  height: 50px !important;
+  background-color: #3D92A7 !important;
+}
+
+.topTitlereq p {
+  color: white;
+}
+
+.vacancy {
+  width: 892px;
+  height: 68px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[7];
+      grid-template-columns: repeat(7, 1fr);
+  background-color: white;
+  -webkit-box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  padding-left: 17px;
+  padding-right: 17px;
+  color: #00252E;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.vacancy .titleVacancy {
+  width: 100px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.vacancy .makePremium {
+  width: 55px;
+  height: 29px;
+  background: #3D92A7;
+  border-radius: 6px;
+  padding: 0px;
+  margin: 0px;
+  border: none;
+  -ms-grid-column-align: center;
+      justify-self: center;
+}
+
+.vacancy .buttonCont {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 5px;
+          column-gap: 5px;
+  margin-right: 10px;
+}
+
+@media screen and (max-width: 500px) {
+  .vacancy .buttonCont {
+    width: 100%;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+}
+
+.vacancy .buttonCont button {
+  border: none;
+  color: white;
+  background-color: #3D92A7;
+  border-radius: 5px;
+  width: 35px;
+  height: 35px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: 0.5s background-color;
+  transition: 0.5s background-color;
+}
+
+.vacancy .buttonCont button svg {
+  width: 30px;
+}
+
+.vacancy .buttonCont button:hover {
+  background-color: #00252E;
+}
+/*# sourceMappingURL=vacancy.css.map */

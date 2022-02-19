@@ -1,0 +1,199 @@
+.premiumCardLink {
+  width: auto !important;
+}
+
+.premiumCard {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-column-gap: 15px;
+          column-gap: 15px;
+  padding: 15px;
+  width: 320px;
+  height: 100px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.premiumCard .outline {
+  border: 2px solid #00252E;
+  border-radius: 50%;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  margin-top: 18px;
+}
+
+@media screen and (min-width: 1900px) {
+  .premiumCard .outline {
+    width: 60px !important;
+    height: 60px !important;
+  }
+  .premiumCard .outline .imgCont {
+    width: 60px !important;
+    height: 60px !important;
+    border-radius: 50%;
+  }
+}
+
+@media screen and (min-width: 1400px) and (max-width: 1900px) {
+  .premiumCard .outline {
+    width: 50px !important;
+    height: 50px !important;
+  }
+  .premiumCard .outline .imgCont {
+    width: 50px !important;
+    height: 50px !important;
+    border-radius: 50%;
+  }
+}
+
+@media screen and (min-width: 1300px) and (max-width: 1400px) {
+  .premiumCard .outline {
+    width: 45px !important;
+    height: 45px !important;
+  }
+  .premiumCard .outline .imgCont {
+    width: 45px !important;
+    height: 45px !important;
+    border-radius: 50%;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .premiumCard .outline {
+    width: 35px !important;
+    height: 35px !important;
+  }
+  .premiumCard .outline .imgCont {
+    width: 35px !important;
+    height: 35px !important;
+    border-radius: 50%;
+  }
+}
+
+.premiumCard .outline .imgCont {
+  width: 51px;
+  height: 51px;
+  border-radius: 50%;
+}
+
+.premiumCard .aboutCont {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 252px;
+  height: 64px;
+}
+
+.premiumCard .aboutCont p {
+  margin: 0px;
+}
+
+.premiumCard .aboutCont .top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.premiumCard .aboutCont .top .part1, .premiumCard .aboutCont .top .part2 {
+  margin: 0px;
+  font-size: 13px;
+  font-weight: 700;
+  color: #00252E;
+  font-family: "MsM";
+}
+
+.premiumCard .aboutCont .top .price {
+  width: 80px;
+  margin-right: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.premiumCard .aboutCont .timeCont {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-size: 11px;
+}
+
+.premiumCard .aboutCont .timeCont .time {
+  color: #3D92A7;
+  font-weight: 700;
+}
+
+.premiumCard .aboutCont .timeCont .date {
+  font-weight: 400;
+  color: #00252E;
+  font-family: "MsM";
+}
+
+.premiumCard .aboutCont .companyName {
+  font-size: 14px;
+  font-weight: 700;
+  font-family: "MsR";
+  margin-top: 5px;
+  margin-bottom: 5px;
+  color: #00252E;
+}
+
+.premiumCard:hover {
+  background: #3D92A7;
+  color: white;
+}
+
+.premiumCard:hover .outline {
+  background-color: #fff;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.premiumCard:hover .part1, .premiumCard:hover .part2 {
+  color: white !important;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.premiumCard:hover .companyName {
+  color: white;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.premiumCard:hover .date {
+  font-weight: 400;
+  color: white !important;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.premiumCard:hover .time {
+  color: white !important;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+/*# sourceMappingURL=premiumCard.css.map */

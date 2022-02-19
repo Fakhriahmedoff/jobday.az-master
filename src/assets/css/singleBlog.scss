@@ -1,0 +1,150 @@
+.singleBlogPage
+{
+    
+    width: 100%;
+    display: flex;
+    margin-bottom: 100px;
+    flex-direction: column;
+    align-items: center;
+    .searchCont
+    {
+        width: 100%;
+        background-image: url('../image/search about.jpg');
+        background-size: cover;
+    }
+    .blogimage
+    {
+        width: 300px;height: 300px;border-radius: 10px;
+    }
+    .aboutUsCont
+    {
+        width: 98%; display: flex; flex-direction: column;
+        margin-top: 10px;
+        .pageLink
+        {
+            align-self: flex-start;
+            display: flex;
+            column-gap: 10px;
+            color: black;
+            font-family: MsR;
+            font-size: 13px;
+            align-items: center;
+            a
+            {
+                color: black;
+            }
+            svg 
+            {
+                width: 10px;
+            }
+        }
+        .aboutText
+        {
+            width: 90%;
+            margin-top: 48px;
+            align-self: center;
+            p 
+            {
+                margin: 0px;
+            }
+            .title 
+            {
+                font-size: 36px;
+                color: #00252E;
+                margin-top: 20px;
+            }
+            .text
+            {
+                margin-top: 10px;
+                margin-left: 10px;
+                font-size: 20px;
+                width: 90%;
+                color: black;
+            }
+            .gridCont
+            {
+                display: flex;
+                flex-wrap: wrap;
+                margin-top: 53px;
+                justify-content: space-around;
+                row-gap: 40px;
+            }
+            .item
+            {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                font-family: "MsR";
+                color: #00252E;
+                .title
+                {
+                    margin-top: 57px;
+                    font-size: 24px;
+                }
+                .title2
+                {
+                    margin-top: 50px !important;
+                }
+                .subTitle 
+                {
+                    margin-top: 20px;
+                    color: #00252E;
+                    font-weight: 450;
+                }
+                .number
+                {
+                    margin-top: 19px;
+                }
+                .flexCont
+                {
+                    display: flex;
+                    flex-direction: column;
+                    a 
+                    {
+                        display: flex;
+                        align-items: center;
+                        margin-top: 20px;
+                        column-gap: 16px;
+                        p 
+                        {
+                            margin: 0px;
+                        }
+                    }
+                }
+            }
+        }
+    } 
+    
+
+
+
+
+
+}
+
+//Mobile
+@media only screen and (max-width: 958px) {
+    .singleBlogPage
+    {
+        .aboutUsCont
+        {
+            justify-content: center;
+        }
+        .aboutText
+        {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .mainTitle
+        {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 20px !important;
+        }
+        .text 
+        {
+            font-size: 17px !important;
+        }
+    }
+}

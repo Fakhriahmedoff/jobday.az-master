@@ -1,0 +1,54 @@
+.notification
+{
+    width: 892px;
+    height: 68px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    padding-left: 17px;
+    color: #00252E;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 20px;
+    column-gap: 10px;
+    .circ
+    {
+        width: 13px;
+        height: 13px;
+        background-color: #3D92A7;
+        border-radius: 50%;
+    }
+    .notfFirstPart
+    {
+        display: flex;
+        column-gap: 10px;
+        align-items: center;
+    }
+    button 
+    {
+        border: none;
+        color: white;
+        background-color: #3D92A7;
+        border-radius: 5px;
+        width: 35px;
+        height: 35px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: 0.5s background-color;
+        margin-right: 10px;
+        svg 
+        {
+            width: 30px;
+        }
+        &:hover 
+        {
+            background-color: #00252E;
+        }
+    }
+
+}

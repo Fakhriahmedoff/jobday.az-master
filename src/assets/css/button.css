@@ -1,0 +1,31 @@
+.button {
+  width: auto;
+  height: 27px;
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #00252e;
+  color: white;
+  font-size: 9px;
+  border: none;
+  border-radius: 5px;
+  font-family: "MsM";
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.button img {
+  margin-right: 5px;
+}
+
+.button:hover {
+  background-color: #00252e !important;
+}
+/*# sourceMappingURL=button.css.map */

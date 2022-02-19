@@ -1,0 +1,44 @@
+.faydaliCont {
+  width: 300px;
+  height: 332px;
+  background-color: transparent;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.faydaliCont .imgCont {
+  width: 300px;
+  height: 195px;
+  border-radius: 10px;
+}
+
+.faydaliCont p {
+  margin: 0px;
+  color: #00252E;
+}
+
+.faydaliCont .title {
+  margin-top: 30px;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: "MsR";
+  width: 276px;
+}
+
+@media screen and (max-width: 600px) {
+  .faydaliCont .title {
+    text-align: center;
+  }
+}
+
+.faydaliCont:hover {
+  -webkit-transform: translateY(-10px);
+          transform: translateY(-10px);
+  -webkit-filter: drop-shadow(0px 0px 12px rgba(0, 0, 0, 0.25));
+          filter: drop-shadow(0px 0px 12px rgba(0, 0, 0, 0.25));
+}
+
+.faydaliCont:hover p {
+  color: #3D92A7;
+}
+/*# sourceMappingURL=faydaliElement.css.map */
